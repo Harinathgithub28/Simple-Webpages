@@ -1,0 +1,29 @@
+.heading-about{
+    color: #323f2b;
+    font-family: Roboto;
+    margin: 10px;
+}
+.txt-para{
+    color: #9aa5b1;
+    font-family: Roboto;
+    margin: 10px;
+}
+.heading-more{
+    color: #323f2b;
+    font-family: Roboto;
+    margin: 10px;
+}
+.pictures-container{
+    margin: 18px;
+}
+.videos{
+    color: #323f2b;
+    font-family: Roboto;
+    margin: 10px;
+}
+.videos-container{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+

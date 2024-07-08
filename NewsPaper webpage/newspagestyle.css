@@ -1,0 +1,31 @@
+.bg-image{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btm-card{
+    background-color: white;
+    height: 50vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card-top-heading{
+    color: #7b8794;
+    margin: 15px;
+}
+.card-second-heading{
+    color: #323f4b;
+    padding: 10px;
+}
+.card-para{
+    color: #7b8794;
+    margin: 15px;
+}
+.btn{
+    background-color: #323f4b;
+    color: white;
+    margin: 10px;
+    width: 28vw;
+}
+

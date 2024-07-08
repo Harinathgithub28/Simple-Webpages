@@ -1,0 +1,91 @@
+.main-bg1{
+    background-color: #0967d219;
+    height: 98vh;
+}
+.main-bg2{
+    background-color: white;
+    height: 96vh;
+    margin: 10px;
+}
+.top-heading{
+    color: black;
+    width: 60vw;
+    margin: 8px;
+}
+.first-btn{
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #0967d2;
+    color: white;
+    width: 27vw;
+    height: 5vh;
+    padding: 5px;
+    margin: 5px;
+}
+.first-card{
+    background-color: #0967d219;
+    height: 17vh;
+    border-radius: 12px;
+    margin: 10px;
+}
+.fst-card-img{
+    height: 10vh;
+    width: 13vw;
+    padding: 5px;
+    margin: 13px;
+}
+.symptoms{
+    margin: 10px;
+}
+.second-container-card1{
+    background-color: #3ebd93;
+    width: 18vw;
+    height: 14vh;
+    border-radius: 10px;
+    margin: 17px;
+}
+.scc1-img{
+    padding: 8px;
+}
+.scc1-txt{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+.second-container-card2{
+    background-color: #e668a7;
+    width: 18vw;
+    height: 14vh;
+    border-radius: 10px;
+    margin: 17px;
+}
+.second-container-card3{
+    background-color: #a368fc;
+    width: 18vw;
+    height: 14vh;
+    border-radius: 10px;
+    margin: 17px;
+}
+.videos{
+    margin: 10px;
+}
+.bottom-card{
+    background-color: #e12d3919;
+    height: 21vh;
+    border-radius: 10px;
+    margin: 10px;
+}
+.bottom-card-img{
+    height: 10vh;
+    width: 13vw;
+    padding: 5px;
+    margin: 13px;
+}
+.bottom-btn{
+    background-color: #0967d2;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 22vw;
+    height: 30px;
+}
