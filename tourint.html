@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="tourintstyle.css">
+        <title>Document</title>
+    </head>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      </head>
+  <body>
+    <div id="sectionHome">
+        <div class="bg-image1 d-flex flex-column justify-content-end">
+            <div class="bg-content">
+                <h1 class="h1-tag1"> Tourism </h1>
+                <p class="para-tag"> Plan whereever you want to go </p>
+                <button type="button" class="btn btn-info btn-tag" onclick="display('sectionFavouritePlaces')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+        <div class="bg-image">
+
+            <h1 class="display-3 h1-main">Favorite Places </h1>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Taj Mahal</h1>
+                    <p class="p-style">
+                        The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.
+                    </p>
+                </div>
+                <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" class="favoriteplace-card"/>
+            </div>
+    
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGoldenTempleDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Golden Temple</h1>
+                    <p class="p-style">
+                        The Golden temple is located in the holy city of the Sikhs, Amritsar. The Golden temple is famous for its full golden dome, it is one of the most sacred pilgrim spots for Sikhs. The Mandir is built on a 67-ft square of marble and is a two storied structure.
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297161.jpg?t=st=1719076142~exp=1719079742~hmac=c0cc78f7a6451835cdea707329ab264c4fb301961c145f9576fa965d25e2d781&w=1060" class="favoriteplace-card"/>
+            </div>
+    
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionMysorePalace')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Mysore Palace</h1>
+                    <p class="p-style">
+                        Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a royal residence. It is located in Mysore, Karnataka, India. It used to be the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore.
+                    </p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTgeVXi7J1_elZQnwbYm6XsSPjH-y5GQJ0sliPpWs9qa8_b_OlWMPDxroKT-yncDH4-wRyxrI4uXm4db9fOVWdEXJTiZ5YUU34griyGvA" class="favoriteplace-card"/>
+            </div>
+    
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionVaranasiTemple')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Varanasi Temple</h1>
+                    <p class="p-style">
+                        Kashi Vishvanath Temple is one of the most famous Hindu temples dedicated to Lord Shiva. It is located in Varanasi, Uttar Pradesh, India. The temple stands on the western bank of the holy river Ganga, and is one of the twelve Jyotirlingas, the holiest of Shivatemples.
+                    </p>
+                </div>
+                <img src="https://as1.ftcdn.net/v2/jpg/02/68/99/12/1000_F_268991253_BZZD5KWBk7ODXAE0k83N2EfFLsvAEF9G.jpg" class="favoriteplace-card"/>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="sectionTajMahalDetailedView">
+        <div class="main-bg-image-section">
+            <h1 class="h1-tag">Detailed View</h1>
+              <div class="detailed-viewcard-container2">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-image-1 active">
+                      <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR0R2U6jo4GwEqyKRyWd3gtqxml3U8EtZWOsiSrggeViUGpX8AUaXOM3ZBjBpBwjPGWvXKkNdlvAXGUGbUx1Ypz5QZzUZRVnd7Jb5a6PQ" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-image bg-image-2">
+                      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item carousel-image bg-image-3">
+                      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+        
+                <div class="card-text-container">
+                  <h1 class="card-heading2">Taj Mahal</h1>
+                  <p class="card-para2">The Taj Mahal is located on the right bank of the Yamuna River in a vast Mughal garden that encompasses nearly 17 hectares, in the Agra District in Uttar Pradesh. It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal with construction starting in 1632 AD and completed in 1648 AD, with the mosque, the guest house and the main gateway on the south, the outer courtyard and its cloisters were added subsequently and completed in 1653 AD. The existence of several historical and Quaranic inscriptions in Arabic script have facilitated setting the chronology of Taj Mahal. For its construction, masons, stone-cutters, inlayers, carvers, painters, calligraphers, dome builders and other artisans were requisitioned from the whole of the empire and also from the Central Asia and Iran. Ustad-Ahmad Lahori was the main architect of the Taj Mahal.
+                  </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+                Back
+            </button>
+          </div>
+    </div>
+    <div id="sectionGoldenTempleDetailedView">
+      <div class="bg-image-container">
+        <h1 class="h1-tag-container">Detailed View</h1>
+        <div class="detailed-view-card-container3">
+          <div id="goldentemplecarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#goldentemplecarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#goldentemplecarousel" data-slide-to="1"></li>
+              <li data-target="#goldentemplecarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-container carousel-bg-img1 active">
+                <img src="https://img.freepik.com/premium-photo/harimandir-sahib-golden-temple-complex-amritsar-india_431724-5312.jpg?w=1060" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item carousel-container carousel-bg-img2">
+                <img src="https://img.freepik.com/premium-photo/amritsar-india-beautiful-view-golden-temple-amritsar_380726-1325.jpg?w=740" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item carousel-container carousel-bg-img3">
+                <img src="https://img.freepik.com/premium-photo/image-golden-temple-amritsar-white-background_849906-14660.jpg?w=740" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#goldentemplecarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#goldentemplecarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div>
+            <h1 class="card-heading3">Golden Temple</h1>
+            <p class="card-para3">
+              The Golden Temple, or Harmandir Sahib, is the focus of a complex of buildings that form the heart of Sikhism. 
+              The temple itself occupies a small island in the center of a tank, or pool, called the Amrita Saras (“Pool of Nectar”)—the source of the city’s name—and is connected to land on its 
+              west side by a marble causeway running across the pool. Situated facing the entrance to the causeway is the Akal Takht (“Throne of the Timeless One”), the chief center of authority
+              of Sikhism and the headquarters of the Shiromani Akali Dal (Supreme Akali Party), the main political party of the Sikhs in Punjab. On the north side of the tank is the main entrance
+              to the complex and the Teja Singh Samudri Hall (Clock Tower), which houses the main offices of the Shiromani Gurdwara Parbandhak Committee (Supreme Committee of Temple Management),
+              which oversees the main Sikh gurdwaras. Among several buildings on the east side of the tank are the Assembly Hall and the Guru Ram Das Langar, the latter a large dining hall that
+              serves meals to thousands of pilgrims and other visitors each day.
+            </p>
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+            Back
+          </button>
+      </div>
+      </div>
+
+    </div>
+    <div id="sectionMysorePalace">
+      <div class="bg-image-containermy">
+        <h1 class="bg-text">Detailed View</h1>
+        <div class="detailed-view-card-container">
+            <div id="mysorepalacecarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#mysorepalacecarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mysorepalacecarousel" data-slide-to="1"></li>
+                <li data-target="#mysorepalacecarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item carousel-imagemy bg-image-1 active">
+                  <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSdRBS6p8KGgEVb98dEOi5LUCzfYzfHgwh0ZChTgvWIR1AizhxDD8DswhUVAtQ2if1ckAwiMS878QmlzasChLM-_B8tqBqwhoZSg6ziLQ" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousel-imagemy bg-image-2">
+                  <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTgeVXi7J1_elZQnwbYm6XsSPjH-y5GQJ0sliPpWs9qa8_b_OlWMPDxroKT-yncDH4-wRyxrI4uXm4db9fOVWdEXJTiZ5YUU34griyGvA" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousel-imagemy bg-image-3">
+                  <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSA8u-JC14mKqB0rcueRHiLkIkrG9H49jXS54eVA6HQh59V6_q2olcNey0le50DlGMmz42KNjAO9n-3yIMyQEYjjqWhZItunrJkNEgMPQ" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#mysorepalacecarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#mysorepalacecarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div>
+                <h1 class="card-text-heading">Mysore Palace</h1>
+                <p class="card-text-para">
+                  Mysore Palace, a sprawling three-story, gray granite, Indo-Saracenic building capped by a five-story tower that culminates
+                  in a gilded dome in the southern Indian city of Mysuru in Karnataka state. The city is home to a number of palaces, but
+                  when people talk of Mysore Palace, they are referring to this palace within a historic fort. Also referred to as the Amba Vilas.
+                  The site features cows grazing happily among the lush gardens and twelve Hindu temples that also make up the complex.
+                  The site’s history is closely linked to that of the royal family of the former kingdom of Mysore, the Wadiyar dynasty.
+                  The family ruled the area from 1399, when they first lived in a palace at Mysore, and the city became the kingdom’s capital
+                  in 1799. The Mysore Palace is now a museum and major tourist attraction. Highlights include many ornate rooms and the colonnaded
+                  Durbar Hall. In addition, every fall the Dussehra festival is celebrated at the palace.
+                </p>
+                <ul>
+                  <li>Jallianwala Bagh</li>
+                  <li>Harike wetland</li>
+                </ul>
+            </div>    
+    </div>
+      <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+        Back
+      </button>
+    </div>
+    <div id="sectionVaranasiTemple">
+      <div class="bg-image-container">
+        <h1 class="bg-main-heading">Detailed View</h1>
+        <div class="detailed-view-card-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item carousal-container bg-image-1 active">
+                  <img src="https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qaqsvnpcfsojlhdxfhky.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousal-container bg-image-2">
+                  <img src="https://t3.ftcdn.net/jpg/01/02/77/18/240_F_102771878_yd5kFP23p6GBEigFX5Ax8ImFSQSGtDni.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item carousal-container bg-image-3">
+                  <img src="https://t3.ftcdn.net/jpg/08/37/91/42/240_F_837914226_03rSq8UXHnGHOJrvFyPcZy8iMMbwQAsD.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+                <div>
+                  <h1 class="carousal-text-heading">Varanasi Temple</h1>
+                  <p class="carousal-text-para">
+                    Kashi Vishwanath Temple, temple located in Varanasi, Uttar Pradesh, India. It is among the most important Hindu temples in India and is one of the 12 temples where 
+                    Shiva is believed to have appeared as a column of light. The Kashi Vishwanath Temple stands on the west bank of the Ganges River. It is dedicated to Shiva, who has
+                    been worshipped here for hundreds of years as Vishwanatha or Vishweshwara, “Lord of the Universe.” There were several earlier versions of the temple, possibly dating back
+                    more than a thousand years. The first recorded large-scale reconstruction was sanctioned by the Mughal emperor Akbar in 1585, but his great grandson Aurangzeb ordered its
+                    demolition in 1699 and used its debris for a new mosque near the site. The present structure, which is popularly known as the Golden Temple because of the gold used
+                    in the later plating of its spires and domes, is believed to have been built during the 18th century by Ahalya Bai of the Holkar dynasty.
+                  </p>
+                </div>
+            </div>
+     </div>
+
+      <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+        Back
+      </button>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>

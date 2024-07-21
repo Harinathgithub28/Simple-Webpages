@@ -1,0 +1,258 @@
+.bg-image1{
+    background-image: url("https://img.freepik.com/free-photo/beautiful-landscape-with-rainbow-beach_23-2151581129.jpg?t=st=1718942584~exp=1718946184~hmac=f1c76218d88af3cb2a342ec7016fab87f2449f3696aeed4e0fe8360a191a6373&w=1060");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+    margin: 0;
+    padding: 0;
+}
+.bg-content{
+    text-align: center;
+    background-color: white;
+    width: auto;
+    border-radius: 20px;
+
+}
+.h1-tag1{
+    color: black;
+}
+.para-tag{
+    color: black;
+}
+.btn-tag{
+    color: white;
+    border-radius: 38px;
+}
+.bg-image{
+    background-image: url("https://img.freepik.com/free-vector/city-landmarks-background-theme_52683-44166.jpg?t=st=1718947556~exp=1718951156~hmac=430080c4e620789d7b47c559afc62ea25f59bc5b31036fc2348b51341099bfe6&w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+    margin: 0;
+    padding: 0;
+}
+.h1-main{
+    color:white;
+    font-family: Segoe UI;
+    padding: 24px;
+}
+.favourite-place-card-container{
+    background-color: white;
+    border-radius: 15px;
+    padding: 16px;
+    margin: 10px;
+}
+.favourite-place-card-heading{
+    color: #cc66ff;
+    font-family: Seoge UI;
+    font-weight: bold;
+    font-size: 28px;
+}
+.p-style{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.favoriteplace-card{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+.main-bg-image-section{
+    background-image: url("https://img.freepik.com/free-photo/beautiful_1203-2569.jpg?t=st=1719560737~exp=1719564337~hmac=bd1595e53f6f9884ae1e5c8ce026533237a74681928ee062b993d1a201ed7678&w=1060");
+    height: 97vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+.h1-tag{
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+.detailed-viewcard-container2{
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 18px;
+}
+.carousel-image{
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-image-1{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png");
+
+}
+.bg-image-2{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png");
+
+}
+.bg-image-3{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png");
+}
+.card-text-container{
+    margin: 5px;
+    padding: 5px;
+}
+.card-heading2{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f0e46;
+}
+.card-para2{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #6c6b70;
+}
+
+
+
+
+
+
+.bg-image-container{
+    background-image: url("https://img.freepik.com/free-photo/beautiful_1203-2569.jpg?t=st=1719560737~exp=1719564337~hmac=bd1595e53f6f9884ae1e5c8ce026533237a74681928ee062b993d1a201ed7678&w=1060");
+    background-repeat: no-repeat;
+    height: 98vh;
+    background-size: cover;
+}
+.h1-tag-container{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 38px;
+    font-weight: bold;
+    padding: 20px;
+}
+.detailed-view-card-container3{
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 10px;
+}
+.carousel-container{
+    height: 40vh;
+
+}
+.carousel-bg-img1{
+    background-image: url("https://img.freepik.com/premium-photo/harimandir-sahib-golden-temple-complex-amritsar-india_431724-5312.jpg?w=1060");
+    background-position: 40vh;
+    
+}
+.carousel-bg-img2{
+    background-image: url("https://img.freepik.com/premium-photo/amritsar-india-beautiful-view-golden-temple-amritsar_380726-1325.jpg?w=740");
+    background-position: 40vh;
+}
+.carousel-bg-img3{
+    background-image: url("https://img.freepik.com/premium-photo/image-golden-temple-amritsar-white-background_849906-14660.jpg?w=740");
+    background-position: 40vh;
+}
+.card-heading3{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 28px;
+    color: #0f0e46;
+    margin: 5px;
+}
+.card-para3{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #6c6b70;
+    margin: 10px;
+}
+
+
+
+
+.bg-image-containermy{
+    background-image: url("https://img.freepik.com/free-photo/beautiful_1203-2569.jpg?t=st=1719560737~exp=1719564337~hmac=bd1595e53f6f9884ae1e5c8ce026533237a74681928ee062b993d1a201ed7678&w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+}
+.bg-text{
+    font-family: 'Roboto';
+    font-size: 38px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.detailed-view-card-container{
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 10px;
+}
+.carousel-imagemy{
+    height: 40vh;
+}
+.card-text-heading{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding: 8px;
+}
+.card-text-para{
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 8px;
+    color: #6c6b70;
+}
+
+
+
+
+
+.bg-image-container{
+    background-image: url("https://img.freepik.com/free-photo/beautiful_1203-2569.jpg?t=st=1719560737~exp=1719564337~hmac=bd1595e53f6f9884ae1e5c8ce026533237a74681928ee062b993d1a201ed7678&w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+}
+.bg-main-heading{
+    font-family: 'Roboto';
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.detailed-view-card-container4{
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 10px;
+}
+.carousal-container{
+    height: 25vh;
+}
+.carousal-image1{
+    background-image: url("https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qaqsvnpcfsojlhdxfhky.webp");
+}
+.carousal-image-2{
+    background-image: url("https://t3.ftcdn.net/jpg/01/02/77/18/240_F_102771878_yd5kFP23p6GBEigFX5Ax8ImFSQSGtDni.jpg");
+}
+.carousal-image-3{
+    background-image: url("https://t3.ftcdn.net/jpg/08/37/91/42/240_F_837914226_03rSq8UXHnGHOJrvFyPcZy8iMMbwQAsD.jpg");
+}
+.carousal-text-heading{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+.carousal-text-para{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #6c6b70;
+    padding: 10px;
+}
